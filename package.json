@@ -34,7 +34,6 @@
     "url": "http://github.com/azure/azure-rest-api-specs/issues"
   },
   "scripts": {
-    "postinstall": "tsc",
     "test": "tsc && mocha -t 500000 --reporter min",
     "prettier-check": "ts-node ./scripts/prettier-check.ts",
     "prettier-fix": "prettier --write specification/**/*.json",
